@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_text_size">15sp</dimen>
+
+    <dimen name="btn_margin_top">20dp</dimen>
+
+    <dimen name="img_size"></dimen>
+
+    <dimen name="img_ttitle_size">24sp</dimen>
+
+    <dimen name="txt_margin_top">10dp</dimen>
+
+    <dimen name="ll_width">350dp</dimen>
+
+    <dimen name="card_hight">65dp</dimen>
+
+    <dimen name="title_size">18dp</dimen>
+
+    <dimen name="margin_text">35dp</dimen>
+
+    <dimen name="lr_width">360dp</dimen>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/card_id"
+        android:layout_width="@dimen/ll_width"
+        android:layout_marginTop="@dimen/btn_margin_top"
+        android:background="@drawable/card_shape"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="@dimen/card_hight">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:paddingLeft="@dimen/btn_margin_top"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/btn_text_size"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/tvamount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/title_size"></TextView>
+
+        <TextView
+            android:id="@+id/tvArrowup"
+            android:layout_width="wrap_content"
+android:layout_centerVertical="true"
+            android:paddingRight="@dimen/btn_margin_top"
+            android:layout_marginRight="@dimen/txt_margin_top"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_keyboard_arrow_up_black_24dp"></TextView>
+        <TextView
+            android:id="@+id/tvArrowdown"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/txt_margin_top"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:visibility="gone"
+            android:background="@drawable/ic_keyboard_arrow_down_black_24dp"
+            android:layout_alignParentRight="true"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_below="@id/txtTitle"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/subtitle"
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+    </RelativeLayout>
+<ListView
+    android:id="@+id/expandedList"
+    android:layout_width="@dimen/ll_width"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="match_parent"></ListView>
+
+
+</LinearLayout>
